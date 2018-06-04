@@ -19,22 +19,22 @@ body {
 	color: #fff;
 }
 
-#nav{
+#navbar{
 	background-color:#333:
-	color :#fff;
+	color :red;
 }
 
-#nav ul{
+#navbar ul{
 	padding:0;
 	List-style: none;
 }
 
-#nav li{
+#navbar li{
 	display:inline;
 }
 
-#nav a{
-	color:#fff;
+#navbar a{
+	color:red;
 	text-decoration:none;
 	font-size: 20px;
 	padding-right:15px;
