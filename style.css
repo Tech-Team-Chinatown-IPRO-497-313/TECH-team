@@ -12,6 +12,7 @@ body {
 	width:80%;
 	margin:auto;
 	overflow:hidden;
+	text-align: center;
 }
 
 #main-header{
@@ -66,4 +67,27 @@ body {
 	width: 20%
 	List-style:none;
 	box-sizing:border-box;
+}
+
+
+
+
+
+
+
+
+
+/*phones, custom*/
+@media (max-width: 575px) {
+  
+}
+
+/*Small devices, landscape phones*/
+@media (min-width: 576px) and (max-width: 767px) {
+  
+}
+
+/*Medium devices, tablets*/
+@media (min-width: 768px) {
+  
 }
