@@ -31,6 +31,9 @@ body li{
 }
 
 .container{
+	border-style:solid;
+	border-width: 10px;
+	border-color: black;
 	max-width: 960px;
 	margin:auto;
 	overflow:hidden;
@@ -42,7 +45,8 @@ body li{
 	color:yellow;
 	font-size:40px;
 	margin: 35px;
-	padding: 10px
+	padding: 10px;
+	line-height: 1;
 }
 
 #main-header{
