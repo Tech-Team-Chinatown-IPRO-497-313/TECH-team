@@ -1,7 +1,18 @@
+/*CLEARFLOATS OF CHILDREN*/
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+/*CLEARFLOATS OF CHILDREN*/
+
 body {
-	background-color:#f4f4f4;
-	color:black;
-	
+	background-color: lightgray;
 	font: normal Arial,Helvetica, san-sarif;
 	
 	Line-height:1.3em;
@@ -9,10 +20,11 @@ body {
 }
 
 .container{
-	width:80%;
+	max-width: 960px;
 	margin:auto;
 	overflow:hidden;
 	text-align: center;
+	background-color: darkorange;
 }
 
 #main-header{
@@ -21,24 +33,30 @@ body {
 }
 
 #navbar{
-	background-color:#333:
-	color: red;
+	background-color: gray;
+	text-align: center;
 }
 
 #navbar ul{
-	padding:0;
-	List-style: none;
+	
+	list-style-type: none;
+	display: inline-block;
 }
 
 #navbar li{
-	display:inline;
+	float: left;
+	margin: 0;
 }
 
 #navbar a{
-	color:red;
+	color: darkorange;
 	text-decoration:none;
 	font-size: 20px;
-	padding-right:15px;
+	padding: 10px 20px;
+}
+
+#navbar a:hover{
+	background-color: black;
 }
 
 #showcase{
