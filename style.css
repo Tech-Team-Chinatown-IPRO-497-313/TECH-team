@@ -27,13 +27,20 @@ body {
 	background-color: red;
 }
 
+.container h1{
+	color:yellow;
+	font-size:40px;
+	margin: 35px;
+	padding: 10px
+}
+
 #main-header{
 	background-color:red;
 	color: #fff;
 }
 
 #navbar{
-	background-color: gray;
+	background-color: black;
 	text-align: center;
 }
 
@@ -49,7 +56,7 @@ body {
 }
 
 #navbar a{
-	color: black;
+	color: white;
 	text-decoration:none;
 	font-size: 20px;
 	padding: 10px 20px;
