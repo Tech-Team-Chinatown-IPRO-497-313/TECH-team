@@ -19,6 +19,17 @@ body {
 	margin:0;
 }
 
+body ul{
+	
+	list-style-type: none;
+	display: inline-block;
+}
+
+body li{
+	float: left;
+	margin: 10px;
+}
+
 .container{
 	max-width: 960px;
 	margin:auto;
