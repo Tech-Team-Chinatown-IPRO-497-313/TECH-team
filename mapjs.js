@@ -2,6 +2,8 @@ var map;
 
 var pingtom;
 
+var CAMoC;
+
 
         function initMap() {
         // Create a map object and specify the DOM element for display.
@@ -20,5 +22,13 @@ var pingtom;
             animation: google.maps.Animation.DROP,
 			});
 
+    	var CAMoCMarker = new google.maps.Marker ({
+            position: {lat: 41.851330, lng: -87.633529},
+            map: map,
+            title: 'Chinese American Museum of Chicago',
+            icon : 'Images/mask.svg',
+            animation: google.maps.Animation.DROP,
+			});
 
         }
+
