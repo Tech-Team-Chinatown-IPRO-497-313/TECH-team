@@ -18,7 +18,7 @@
     </header>
     <div class = "container">
         <h1>IPRO 497-313 ChinaTown Summer 2018</h1>
-        <img src="Images/SaintTherese.JPG" alt="ChinatownChurch-SaintTherese">
+        <img src="Images/ChinatownChurch-SaintTherese" alt="ChinatownChurch-SaintTherese">
         <h2>This is going to be the main landing page of the website</h2>
     </div>
 </body>
