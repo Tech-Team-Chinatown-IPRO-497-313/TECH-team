@@ -49,6 +49,10 @@ body li{
 	line-height: 1;
 }
 
+.container img{
+	width:900px;
+}
+
 #main-header{
 	background-color:red;
 	color: #fff;
