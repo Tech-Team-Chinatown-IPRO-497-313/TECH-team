@@ -10,9 +10,9 @@ var libraryIcon = '<h3>Chinatown Public Library</h3><p>Come visit the library fo
         function initMap() {
         // Create a map object and specify the DOM element for display.
       var map = new google.maps.Map(document.getElementById('map'), {
-        center: {lat: 41.8507, lng: -87.6340},
+        center: {lat: 41.852726, lng: -87.632948},
         scrollwheel: true,
-        zoom: 15.3,
+        zoom: 15.9,
         mapTypeId: 'hybrid',
       });
 
