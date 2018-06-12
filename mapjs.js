@@ -4,7 +4,7 @@ var pingtomIcon = '<h3>Ping Tom Park</h3><p>Come visit the amazing scenery that 
 
 var CAMoCIcon = '<h3>Chinese American Museum of Chicago</h3><p>Come explore the history of Chinatown!</p><a href="Location/Chinese-AmericanMuseum.html"><strong>Chinese-American Museum</strong></a>';
 
-var libraryIcon = '<h3>Chinatown Public Library</h3><p>Come visit the library for books and free wifi</p><a href="library.html"><strong>ChinaTown Library</strong></a>';
+var libraryIcon = '<h3>Chinatown Public Library</h3><p>Come visit the library for books and free wifi</p><a href="Library.html"><strong>ChinaTown Library</strong></a>';
 
 
         function initMap() {
