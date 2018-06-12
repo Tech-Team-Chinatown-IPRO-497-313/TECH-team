@@ -21,7 +21,7 @@ var libraryIcon = '<h3>Chinatown Public Library</h3><p>Come visit the library fo
             position: {lat: 41.857297, lng: -87.634385},
             map: map,
             title: 'Ping Tom Memorial Park',
-            icon : 'Images/pinghut.PNG',
+            icon : 'Images/pinghut.png',
             animation: google.maps.Animation.DROP,
 			});
 
@@ -42,7 +42,7 @@ var libraryIcon = '<h3>Chinatown Public Library</h3><p>Come visit the library fo
             position: {lat: 41.851330, lng: -87.633529},
             map: map,
             title: 'Chinese American Museum of Chicago',
-            icon : 'Images/dragon1.PNG',
+            icon : 'Images/dragon1.png',
             animation: google.maps.Animation.BOUNCE,
 			});
 
@@ -62,7 +62,7 @@ var libraryIcon = '<h3>Chinatown Public Library</h3><p>Come visit the library fo
             position: {lat: 41.853844, lng: -87.632182},
             map: map,
             title: 'Chinatown Public Library',
-            icon : 'Images/books.PNG',
+            icon : 'Images/books.png',
             animation: google.maps.Animation.DROP,
       });
 
