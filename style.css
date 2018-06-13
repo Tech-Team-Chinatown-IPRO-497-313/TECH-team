@@ -42,7 +42,6 @@ body li{
 	text-align: center;
 	position: relative;
 	background: rgba(255, 255, 255, 0.8);
-
 }
 
 .container h1{
@@ -51,27 +50,6 @@ body li{
 	margin: 35px;
 	padding: 10px;
 	line-height: 1;
-}
-
-.dropdown {
-	position: relative;
-	display: inline-block;
-	color: white;
-}
-.dropdown-content {
-	display: none;
-	position: absolute;
-	background-color: #FFD700;
-	min-width: 160px;
-	width: 330px;
-	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
-	padding: 12px 16px;
-	font-size:8px;
-
-}
-.dropdown:hover .dropdown-content {
-	position: absolute;
-    display: block;
 }
 
 #main-header{
@@ -106,6 +84,22 @@ body li{
 	background-color: red;
 }
 
+.dropdown-content {
+	display: none;
+	position: absolute;
+	z-index: 19999;
+	background-color: #FFD700;
+	min-width: 160px;
+	width: 330px;
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+	padding: 12px 16px;
+	font-size: 8px;
+}
+.dropdown:hover .dropdown-content {
+	position: absolute;
+    display: block;
+}
+
 #showcase{
 	background-image:url('Images/main.jpg');
 	background-position:center right;
@@ -133,10 +127,6 @@ body li{
 	text-align: center;
 	padding:20px;
 }
-
-
-
-
 
 #map {
       height: 100%;
