@@ -12,8 +12,7 @@
 /*CLEARFLOATS OF CHILDREN*/
 
 body {
-	background-image: url("Images/background.jpg");
-	background-color: red;
+	background-color: lightgray;
 	font: normal Arial,Helvetica, san-sarif;
 	
 	Line-height:1.3em;
@@ -31,26 +30,6 @@ body li{
 	margin: 10px;
 }
 
-.dropdown {
-	position: relative;
-	display: inline-block;
-	color: white;
-}
-.dropdown-content {
-	display: none;
-	position: absolute;
-	background-color: #FFD700;
-	min-width: 160px;
-	width: 330px;
-	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
-	padding: 12px 16px;
-	font-size:8px;
-
-}
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
 .container{
 	border-style:solid;
 	border-width: 10px;
@@ -59,15 +38,19 @@ body li{
 	margin:auto;
 	overflow:hidden;
 	text-align: center;
-	background-image: url("Images/transparent.jpg");
+	background-color: red;
 }
 
 .container h1{
-	color:#FFD700;
+	color:yellow;
 	font-size:40px;
 	margin: 35px;
 	padding: 10px;
 	line-height: 1;
+}
+
+.container img{
+	width:900px;
 }
 
 #main-header{
@@ -76,7 +59,7 @@ body li{
 }
 
 #navbar{
-	background-color: #FFD700;
+	background-color: black;
 	text-align: center;
 }
 
@@ -92,7 +75,7 @@ body li{
 }
 
 #navbar a{
-	color: black;
+	color: white;
 	text-decoration:none;
 	font-size: 20px;
 	padding: 10px 20px;
@@ -103,7 +86,7 @@ body li{
 }
 
 #showcase{
-	background-image:url('Images/main.jpg');
+	background-image:url('');
 	background-position:center right;
 	min-height:300px;
 	margin-bottom:30px;
@@ -111,7 +94,7 @@ body li{
 }
 
 #showcase h1{
-	color: #FFD700;
+	color: #fff;
 	font-size:50px;
 	Line-height: 1.6em;
 	padding-top: 30px;
