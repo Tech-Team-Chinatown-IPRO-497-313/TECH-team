@@ -59,7 +59,7 @@ body li{
 	margin:auto;
 	overflow:hidden;
 	text-align: center;
-	background-image: url("Images/transparent.jpg");
+	position: relative;
 }
 
 .container h1{
