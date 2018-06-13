@@ -53,17 +53,19 @@ body li{
 
 .container{
 	border-style:solid;
-	border-width: 10px;
-	border-color: black;
+	border-width: 3px;
+	border-radius:30px;
 	max-width: 960px;
 	margin:auto;
 	overflow:hidden;
 	text-align: center;
 	position: relative;
+	background: rgba(255, 255, 255, 0.8);
+
 }
 
 .container h1{
-	color:#FFD700;
+	color:#DAA520;
 	font-size:40px;
 	margin: 35px;
 	padding: 10px;
