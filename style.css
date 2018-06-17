@@ -12,11 +12,13 @@
 /*CLEARFLOATS OF CHILDREN*/
 
 body {
-	background-color: lightgray;
+	background-image: url("Images/background.jpg");
+	background-color: red;
 	font: normal Arial,Helvetica, san-sarif;
 	
 	Line-height:1.3em;
 	margin:0;
+	padding-bottom: 40px;
 }
 
 body ul{
@@ -32,17 +34,18 @@ body li{
 
 .container{
 	border-style:solid;
-	border-width: 10px;
-	border-color: black;
+	border-width: 3px;
+	border-radius:30px;
 	max-width: 960px;
 	margin:auto;
 	overflow:hidden;
 	text-align: center;
-	background-color: red;
+	position: relative;
+	background: rgba(255, 255, 255, 0.8);
 }
 
 .container h1{
-	color:yellow;
+	color:#DAA520;
 	font-size:40px;
 	margin: 35px;
 	padding: 10px;
@@ -55,7 +58,7 @@ body li{
 }
 
 #navbar{
-	background-color: black;
+	background-color: #FFD700;
 	text-align: center;
 }
 
@@ -71,7 +74,7 @@ body li{
 }
 
 #navbar a{
-	color: white;
+	color: black;
 	text-decoration:none;
 	font-size: 20px;
 	padding: 10px 20px;
@@ -81,8 +84,24 @@ body li{
 	background-color: red;
 }
 
+.dropdown-content {
+	display: none;
+	position: absolute;
+	z-index: 19999;
+	background-color: #FFD700;
+	min-width: 160px;
+	width: 330px;
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+	padding: 12px 16px;
+	font-size: 8px;
+}
+.dropdown:hover .dropdown-content {
+	position: absolute;
+    display: block;
+}
+
 #showcase{
-	background-image:url('');
+	background-image:url('Images/main.jpg');
 	background-position:center right;
 	min-height:300px;
 	margin-bottom:30px;
@@ -90,7 +109,7 @@ body li{
 }
 
 #showcase h1{
-	color: #fff;
+	color: #FFD700;
 	font-size:50px;
 	Line-height: 1.6em;
 	padding-top: 30px;
@@ -108,10 +127,6 @@ body li{
 	text-align: center;
 	padding:20px;
 }
-
-
-
-
 
 #map {
       height: 100%;
