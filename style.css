@@ -22,14 +22,16 @@ body {
 }
 
 body ul{
-	
+	text-align: center;
 	list-style-type: none;
 	display: inline-block;
 }
 
 body li{
-	float: left;
-	margin: 10px;
+	float: center;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 20px;
 }
 
 .container{
@@ -50,6 +52,18 @@ body li{
 	margin: 35px;
 	padding: 10px;
 	line-height: 1;
+}
+
+.location {
+	text-align: center;
+	position: relative;
+	max-width: 960px;
+}
+
+.location h1{
+	text-align: center;
+	color: red;
+	margin: 5px;
 }
 
 #main-header{
