@@ -58,6 +58,11 @@ p {
 	line-height: 1;
 }
 
+.container p{
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
 .location {
 	text-align: center;
 	position: relative;
