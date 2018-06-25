@@ -46,6 +46,9 @@ p {
 	font-size: 23px;
 }
 
+.container table img{
+	width:100px;
+}
 .column{
 	column-count:2;
 }
@@ -140,6 +143,10 @@ p {
 .dropdown:hover .dropdown-content {
 	position: absolute;
     display: block;
+}
+
+.container img{
+	width:600px;
 }
 
 #showcase{
