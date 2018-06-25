@@ -23,10 +23,10 @@ body {
 	background-image: url("Images/background.jpg");
 	background-color: red;
 	font: normal Arial,Helvetica, san-sarif;
-	
 	Line-height:1.3em;
 	margin:0;
 	padding-bottom: 40px;
+	top: 40px;
 }
 
 body ul{
@@ -59,6 +59,7 @@ p {
 	border-radius:30px;
 	max-width: 960px;
 	margin:auto;
+	margin-top: 80px;
 	overflow:hidden;
 	text-align: center;
 	position: relative;
@@ -85,6 +86,10 @@ p {
 	margin-right: 60px;
 }
 
+.container img{
+	width:600px;
+}
+
 .location {
 	text-align: center;
 	position: relative;
@@ -104,29 +109,46 @@ p {
 
 #navbar{
 	background-color: #FFD700;
-	text-align: center;
+	height: 50px;
+	position: fixed;
+	z-index:19999;
+	width:100%;
+	top: 0;
+	text-align: left;
 }
 
 #navbar ul{
-	
-	list-style-type: none;
+	padding: 10px;
+	list-style: none;
+	margin: 0 auto;
+	text-align: center;
+	z-index:19999
+}
+
+#navbar ul li{
+	margin: 0 10px;
 	display: inline-block;
+	z-index:19999;
 }
 
-#navbar li{
-	float: left;
-	margin: 10px;
-}
-
-#navbar a{
+#navbar ul li a{
 	color: black;
 	text-decoration:none;
 	font-size: 20px;
-	padding: 10px 20px;
+	padding: 10px 0px;
+	font-weight:bold;
+	transition: all 0.2s ease;
+	z-index:19999;
 }
 
-#navbar a:hover{
+#navbar ul li a:hover{
+	z-index: 19999;
 	background-color: red;
+}
+
+a.active {
+	border-bottom: 2px solid #ecf0f1;
+	z-index: 19999;
 }
 
 .dropdown-content {
@@ -145,16 +167,13 @@ p {
     display: block;
 }
 
-.container img{
-	width:600px;
-}
-
 #showcase{
 	background-image:url('Images/main.jpg');
 	background-position:center right;
 	min-height:300px;
 	margin-bottom:30px;
 	text-align:center;
+	margin-top: 50px;
 }
 
 #showcase h1{
