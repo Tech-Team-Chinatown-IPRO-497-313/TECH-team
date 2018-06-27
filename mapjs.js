@@ -1,8 +1,8 @@
 var map;
 
-var pingtomIcon = '<h3>Ping Tom Park</h3><p>Come visit the amazing scenery that this park has to offer</p><a href="PingTomPark.html"><strong>Ping Tom Park</strong></a>';
+var pingtomIcon = '<h3>Ping Tom Park</h3><p>Come visit the amazing scenery that this park has to offer</p><a href="Location/PingTomPark.html"><strong>Ping Tom Park</strong></a>';
 
-var libraryIcon = '<h3>Chinatown Public Library</h3><p>Come visit the library for books and free wifi</p><a href="Library.html"><strong>ChinaTown Library</strong></a>';
+var libraryIcon = '<h3>Chinatown Public Library</h3><p>Come visit the library for books and free wifi</p><a href="Location/Library.html"><strong>ChinaTown Library</strong></a>';
 
 var nineDragonWallIcon = '<h3>Nine Dragon Wall</h3><p>Come visit Nine Dragon Wall</p><a href="Location/NineDragonWall.html"><strong>Nine Dragon Wall</strong></a>';
 
